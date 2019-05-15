@@ -36,10 +36,10 @@ services:
     networks:
       - backend
     environment:
-      MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD}"
-      MYSQL_DATABASE: "${DB_NAME}"
-      MYSQL_USER: "${DB_USERNAME}"
-      MYSQL_PASSWORD: "${DB_PASSWORD}"
+      MYSQL_ROOT_PASSWORD: "asd"
+      MYSQL_DATABASE: "teodb"
+      MYSQL_USER: "teodor"
+      MYSQL_PASSWORD: "asdd"
     container_name: mysql
 networks:
   frontend:
